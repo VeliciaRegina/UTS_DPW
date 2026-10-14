@@ -32,7 +32,11 @@
         <h2>Tentang Saya</h2>
         <p>Halo! Saya Velicia, mahasiswi teknik informatika</p>
         <div id="teks-tambahan" class="hidden">
-          <p>bblabalbalba</p>
+          <p>Saat ini, saya sedang mempelajari berbagai dasar pengembangan perangkat lunak, termasuk HTML, CSS,
+            JavaScript, Java, Python, dan C. Saya memiliki ketertarikan khusus pada pengembangan front-end dan UI/UX
+            karena saya senang mempelajari bagaimana sebuah website dirancang agar memiliki tampilan yang menarik,
+            terstruktur, dan mudah digunakan.
+          </p>
         </div>
         <button id="btn-selengkapnya">Selengkapnya</button>
       </section>
@@ -41,8 +45,8 @@
         <h2>Keahlian Saya</h2>
 
         <div class="grid-keahlian">
-          <div class="card-kehlian">
-            <img src="" alt="html">
+          <div class="card-keahlian">
+            <img src="assets/html.png" alt="html">
             <div class="info-skill">
               <p>HTML & CSS</p>
               <div class="progress-bar">
@@ -52,14 +56,47 @@
             </div>
           </div>
 
-          <div class="card-kehlian">
-            <img src="" alt="js">
+          <div class="card-keahlian">
+            <img src="assets/javascript.png" alt="js">
             <div class="info-skill">
               <p>JavaScript</p>
               <div class="progress-bar">
                 <div class="progress" style="width: 35%;"></div>
               </div>
               <span>Bawah (35%)</span>
+            </div>
+          </div>
+
+          <div class="card-keahlian">
+            <img src="assets/python.png" alt="py">
+            <div class="info-skill">
+              <p>Python</p>
+              <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+              </div>
+              <span>Menengah Atas (70%)</span>
+            </div>
+          </div>
+
+          <div class="card-keahlian">
+            <img src="assets/java.png" alt="java">
+            <div class="info-skill">
+              <p>Java</p>
+              <div class="progress-bar">
+                <div class="progress" style="width: 35%;"></div>
+              </div>
+              <span>Bawah (35%)</span>
+            </div>
+          </div>
+
+          <div class="card-keahlian">
+            <img src="assets/c.png" alt="C">
+            <div class="info-skill">
+              <p>C</p>
+              <div class="progress-bar">
+                <div class="progress" style="width: 40%;"></div>
+              </div>
+              <span>Bawah (40%)</span>
             </div>
           </div>
         </div>
@@ -70,15 +107,21 @@
 
         <div class="grid-proyek">
           <div class="card-proyek">
-            <img src="" alt="proyek1">
+            <img src="assets/proyek1.png" alt="proyek1">
             <h3>Word Chain Game</h3>
-            <p>blabbalalalbablaba</p>
+            <p>Permainan tebak kata berantai berbasis terminal yang memungkinkan pemain bergantian menebak kata
+              berdasarkan kata sebelumnya. Program ini dilengkapi dengan sistem giliran, skor, jumlah nyawa, dan fitur
+              petunjuk yang memberikan pengalaman bermain interaktif melalui terminal.
+            </p>
           </div>
 
           <div class="card-proyek">
-            <img src="" alt="proyek2">
+            <img src="assets/proyek2.png" alt="proyek2">
             <h3>Money Management</h3>
-            <p>bbalabablbala</p>
+            <p>Website pencatatan keuangan pribadi yang sedang dikembangkan untuk membantu pengguna mencatat pemasukan
+              dan pengeluaran berdasarkan dompet serta memantau saldo. Proyek ini merupakan bagian dari proses
+              pembelajaran pengembangan web menggunakan HTML, CSS, dan JavaScript.
+            </p>
           </div>
         </div>
       </section>
@@ -96,6 +139,7 @@
             <textarea name="pesan" id="pesan" placeholder="Masukkan pesan" required></textarea>
           </div>
           <button type="submit">Kirim Pesan</button>
+          <p id="notif-sukses" class="hidden">Teks berhasil di kirim!</p>
         </form>
       </section>
 
