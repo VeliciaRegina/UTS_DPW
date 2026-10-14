@@ -204,12 +204,28 @@ footer {
   text-align: center;
 }
 
-#footer p {
-  margin-top: 10rem;
+footer p {
+  margin-top: 1rem;
 }
 
 #notif-sukses {
   color: rgb(80, 186, 108);
   font-weight: bold;
   margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid rgb(78, 40, 46);
+  }
+
+  .content {
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
